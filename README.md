@@ -1,5 +1,9 @@
 # Returning Strings Lab
-
+if(@product.inventory === "true") {
+  $("#inventory-" + id).text("Available");
+} else {
+  $("#inventory-" + id).text("Sold Out");
+}
 ## Objectives
 
 - Return a string from a route.
